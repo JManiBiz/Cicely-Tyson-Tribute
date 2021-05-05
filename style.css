@@ -1,0 +1,66 @@
+#title {
+	text-align: center;
+	font-family: Brush Script MT;
+	font-size: 35px;
+}
+#sub-title {
+	text-align: center;
+	font-family: Copperplate Gothic Bold;
+	font-size: 19px;
+}
+img {
+	max-width: 100%;
+	display: block;
+	height: auto;
+	margin: 0 auto;
+	}
+#img-div {
+	padding: 10px;
+	bakground: AliceBlue;
+}
+#img-caption {
+	text-align: center;
+	font-size: 13px;
+	font-family: Mangal;
+}
+#tribute-info {
+	text-align: justify;
+	font-family: Copperplate Gothic Bold;
+	font-size: 16px
+}
+#headline {
+	font-family: Mangal;
+	font-size: 15px;
+	text-align: center;
+}
+ul {
+	 max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+li {
+	font-family: Helvetica;
+	font-size: 15px;
+}
+p {
+	text-align: justify;
+	font-family: Copperplate Gothic Bold;
+	font-size: 16px;
+}
+blockquote {
+	font-style: italic;
+	text-align: justify;
+	font-family: Copperplate Gothic Bold;
+	font-size: 18px;
+}
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+main {
+	background-color: FloralWhite;
+}
