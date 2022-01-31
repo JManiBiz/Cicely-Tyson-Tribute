@@ -1,58 +1,63 @@
 #title {
-	text-align: center;
-	font-family: Brush Script MT;
-	font-size: 35px;
+  text-align: center;
+  font-family: Brush Script MT;
+  font-size: 35px;
 }
 #sub-title {
-	text-align: center;
-	font-family: Copperplate Gothic Bold;
-	font-size: 19px;
+  text-align: center;
+  font-family: Copperplate Gothic Bold;
+  font-size: 19px;
 }
-img {
-	max-width: 100%;
-	display: block;
-	height: auto;
-	margin: 0 auto;
-	}
-#img-div {
-	padding: 10px;
-	bakground: AliceBlue;
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./cicely tyson.jpg");
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
-#img-caption {
-	text-align: center;
-	font-size: 13px;
-	font-family: Mangal;
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
+
 #tribute-info {
-	text-align: justify;
-	font-family: Copperplate Gothic Bold;
-	font-size: 16px
+  text-align: justify;
+  font-family: Copperplate Gothic Bold;
+  font-size: 16px;
 }
 #headline {
-	font-family: Mangal;
-	font-size: 15px;
-	text-align: center;
+  font-family: Mangal;
+  font-size: 15px;
+  text-align: center;
 }
 ul {
-	 max-width: 550px;
+  max-width: 550px;
   margin: 0 auto 50px auto;
   text-align: left;
   line-height: 1.6;
 }
 li {
-	font-family: Helvetica;
-	font-size: 15px;
+  font-family: Helvetica;
+  font-size: 15px;
 }
 p {
-	text-align: justify;
-	font-family: Copperplate Gothic Bold;
-	font-size: 16px;
+  text-align: justify;
+  font-family: Copperplate Gothic Bold;
+  font-size: 16px;
 }
 blockquote {
-	font-style: italic;
-	text-align: justify;
-	font-family: Copperplate Gothic Bold;
-	font-size: 18px;
+  font-style: italic;
+  text-align: justify;
+  font-family: Copperplate Gothic Bold;
+  font-size: 18px;
 }
 a {
   color: #477ca7;
@@ -62,5 +67,5 @@ a:visited {
   color: #74638f;
 }
 main {
-	background-color: FloralWhite;
+  background-color: FloralWhite;
 }
